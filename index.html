@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina Chichilo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="welcome">
+        <div class="container">
+            <h1>CANTINA CHICHILO DE BUENOS AIRES</h1>
+            <p>DESDE 1956</p>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>CANTINA CHICHILO DE BUENOS AIRES: 65 AÑOS AL SERVICIO DEL BUEN COMER EN LA PATERNAL. Atendida por sus dueños en el famoso barrio de La Paternal, esta tradicional cantina fue elegida por la producción de Pol-ka para la apertura de las novelas "Ilusiones" y "El Sodero de mi Vida". Además, es el lugar preferido del legendario Diego Maradona.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <h3>Platos destacados</h3>
+                <ul>
+                    <li>Fideos fusiles al fierrito</li>
+                    <li>Ranas a la provenzal</li>
+                    <li>Caracoles a la bordelesa</li>
+                    <li>Rabas a la calabreza</li>
+                    <li>Merluza al ajillo</li>
+                    <li>Gambas al ajillo</li>
+                    <li>Flan casero</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Postres destacados</h3>
+                <ul>
+                    <li>Quinotos caseros al rhum con helado</li>
+                    <li>Flan casero</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="images">
+                <img src="src/unnamed (1).jpg" alt="">
+                <img src="src/unnamed (2).jpg" alt="">
+                <img src="src/unnamed.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <h2>Informacion adicional</h2>
+            <blockquote>
+                Cena: Jueves a Sábados de 20:30 a 23:30 hs.
+            </blockquote>
+            <blockquote>
+                Almuerzo: Sábados y Domingos de 12:30 a 14:30 hs.
+            </blockquote>
+            <blockquote>
+                Teléfonos: 011-4581-1984 / 4584-1263
+            </blockquote>
+        </div>
+    </section>
+
+
+    <section id="location">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <p>Estamos ubicados en Camarones 1901, esquina Terrero 2006 (C1416), Capital Federal, República Argentina.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.611014024846!2d-58.4686067115338!3d-34.60479839338582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c9c2bc9b8b%3A0x0!2sCamarones%201901%2C%20C1416%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1681903662845!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0;"></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cantina Chichilo</p>        
+        </div>
+    </footer>
+</body>
+</html>
